@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+
+.bg{
+    background-color: rgb(173, 135, 99);
+    margin-bottom: 0px;
+}
+
+
+h1{
+    font-family: 'Caveat Brush', cursive;
+    margin-top: 0px;
+    text-align: left;
+    font-size: 60px;
+}
+
+h2{
+    font-size: 60px;
+    color: rgb(116, 90, 56);
+    border-image:50px;
+}
+
+.logo{
+    float: left;
+    margin-top: 0px;
+}
+
+.poto{
+    float: left;
+    top:100px;
+    left:100px;
+    transform: translate(250px,-340px);
+}
+
+.tombol a {
+    background-color: #b19761;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 20px;
+  }
+
+.box {
+    background-image: url(latar.jpg);
+    align-self:  right;
+    padding: 20px;
+    margin : 0px 200px 0px 200px;
+    background-color: rgb(222, 167, 112) ;
+    border-width: 1px;
+    border-style: solid ;
+    border-color: #653f13;
+    border-radius: 50px;
+
+}
+
+.box p{
+    text-align: right;
+    transform-style: flat;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.posisi{
+    text-align: right;
+}
+
+footer{
+    text-align: center;
+    height: 60px;
+    background-color: #ceab94;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3x;
+    margin-bottom: 0px;
+    color: white ;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+ }
+nav ul {
+    margin:0px;
+    padding: 0;
+ }
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 14px 20px;
+    color: rgb(140, 25, 25);
+    background-color: #deb298;
+    border-radius: 50px;
+}
+
+nav ul li a:hover {
+    color : #fff;
+    background-color: rgb(193, 111, 60)
+}
+
